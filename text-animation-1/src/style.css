@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+@font-face {
+  font-family: "Trivia Grotesk N6";
+  src: url("/fonts/trivia-grotesk-n6.woff");
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #f0fff9 0%, #DDFFEF 100%);
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  padding: 1.25em 3em;
+  width: 100%;
+  height: 100vh;
+}
+
+.text-wrapper {
+  overflow: hidden;
+}
+
+.headline {
+  text-align: center;
+  font-family: "Trivia Grotesk N6", Helvetica, sans-serif;
+  font-size: 89px;
+  line-height: 88px;
+  max-width: 1046px;
+}
+
